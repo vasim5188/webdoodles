@@ -1,0 +1,6 @@
+<sly data-sly-test.link="${properties.link}"/>
+    <a class="navbar-brand" href="${properties.link @ extension = 'html'}"><img src="${properties.fileReference || '/content/dam/webdoodles/logo.jpg'}" width="240"></a>
+</sly>
+<sly data-sly-test="${!link}">
+	<a class="navbar-brand" href="#"><img src="${properties.fileReference || '/content/dam/webdoodles/logo.jpg'}" width="240"></a>
+</sly>
