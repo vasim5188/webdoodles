@@ -3,35 +3,12 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:template="/conf/webdoodles/settings/wcm/templates/content-page"
+        cq:template="/conf/webdoodles/settings/wcm/templates/content-page0"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="webdoodles/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <languagenavigation
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="webdoodles/components/content/languagenavigation"
-                navigationRoot="/content/webdoodles/"
-                structureDepth="1"/>
-            <search
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="webdoodles/components/content/search"
-                searchRoot="/content/webdoodles/"/>
-            <navigation
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="webdoodles/components/content/navigation"
-                navigationRoot="/content/webdoodles/"/>
-            <breadcrumb
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="webdoodles/components/content/breadcrumb"/>
-            <responsivegrid
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"
-                editable="{Boolean}true">
-                <cq:responsive jcr:primaryType="nt:unstructured"/>
-            </responsivegrid>
-        </root>
+            sling:resourceType="wcm/foundation/components/responsivegrid"/>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
                 <phone
