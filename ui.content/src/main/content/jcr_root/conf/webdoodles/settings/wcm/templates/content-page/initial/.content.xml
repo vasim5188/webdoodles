@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:template="/conf/webdoodles/settings/wcm/templates/content-page0"
+        cq:template="/conf/webdoodles/settings/wcm/templates/content-page"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="webdoodles/components/structure/page"/>
 </jcr:root>
