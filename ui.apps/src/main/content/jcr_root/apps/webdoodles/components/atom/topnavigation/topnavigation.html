@@ -1,0 +1,4 @@
+<sly data-sly-use.topNavigation="com.webdoodles.tutorials.core.models.TopNavigation"/>
+<ul class="navbar-nav ml-auto" data-sly-list=${topNavigation.navPages}>
+    <li class="nav-item active"><a class="nav-link" href="${item.path}.html">${item.title}</a></li>
+</ul>
