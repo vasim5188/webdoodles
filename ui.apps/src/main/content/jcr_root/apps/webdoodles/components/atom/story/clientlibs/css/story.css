@@ -1,0 +1,22 @@
+.story-container-left {
+	left : 10px;
+}
+
+.story-container-right {
+	right : 10px;
+}
+
+.story-container-center {
+  	left: 19%;
+    margin-top: 3rem !important;
+}
+
+.story-primary .story-container{
+	background-color: #E51B23;
+	color: #FFF;
+}
+
+.story-secondary .story-container{
+	background-color: #0069d9;
+    color: #FFF;
+}
