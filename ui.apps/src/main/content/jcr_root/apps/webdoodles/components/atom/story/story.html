@@ -1,0 +1,5 @@
+<div data-sly-test="${wcmmode.edit}" class="cq-placeholder" data-emptytext="${component.properties.jcr:title}"></div>
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories='webdoodles.story'}"/>
+
+<div class="col-${properties.containersize} jumbotron story-container story-container-${properties.containerposition || 'left'}" data-sly-resource="${'par' @ resourceType='wcm/foundation/components/parsys'}" ></div>

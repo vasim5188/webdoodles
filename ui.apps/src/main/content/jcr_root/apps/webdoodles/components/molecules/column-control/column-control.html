@@ -1,0 +1,22 @@
+<div data-sly-test="${wcmmode.edit}" class="cq-placeholder" data-emptytext="${component.properties.jcr:title}"></div>
+
+<div class="${properties.incontainer} row">
+    <sly data-sly-test="${properties.columnsnumber == '1'}">
+        <div class="col-12" data-sly-resource="${'col' @ resourceType='wcm/foundation/components/parsys'}" ></div>
+    </sly>
+    <sly data-sly-test="${properties.columnsnumber == '2'}">
+        <div class="col-6" data-sly-resource="${'col1' @ resourceType='wcm/foundation/components/parsys'}" ></div>
+        <div class="col-6" data-sly-resource="${'col2' @ resourceType='wcm/foundation/components/parsys'}" ></div>
+    </sly>
+    <sly data-sly-test="${properties.columnsnumber == '3'}">
+        <div class="col-4" data-sly-resource="${'col1' @ resourceType='wcm/foundation/components/parsys'}" ></div>
+        <div class="col-4" data-sly-resource="${'col2' @ resourceType='wcm/foundation/components/parsys'}" ></div>
+        <div class="col-4" data-sly-resource="${'col3' @ resourceType='wcm/foundation/components/parsys'}" ></div>
+    </sly>
+    <sly data-sly-test="${properties.columnsnumber == '4'}">
+        <div class="col-3" data-sly-resource="${'col1' @ resourceType='wcm/foundation/components/parsys'}" ></div>
+        <div class="col-3" data-sly-resource="${'col2' @ resourceType='wcm/foundation/components/parsys'}" ></div>
+        <div class="col-3" data-sly-resource="${'col3' @ resourceType='wcm/foundation/components/parsys'}" ></div>
+        <div class="col-3" data-sly-resource="${'col4' @ resourceType='wcm/foundation/components/parsys'}" ></div>
+    </sly>
+</div>
