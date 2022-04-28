@@ -1,0 +1,10 @@
+<div data-sly-test="${wcmmode.edit && !properties.fileReference}"  class="cq-placeholder" data-emptytext="${component.properties.jcr:title}"></div>
+
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories='webdoodles.banner'}"/>
+
+<div class="card banner"> <img class="card-img-top" src="${properties.fileReference}" alt="Banner image" />
+    <div class="banner-caption banner-overlay-${properties.containerposition || 'left'}">
+    	<div class="col-${properties.containersize}" data-sly-resource="${'par' @ resourceType='wcm/foundation/components/parsys'}" ></div>
+    </div>
+</div>
