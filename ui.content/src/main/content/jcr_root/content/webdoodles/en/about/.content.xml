@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-23T22:32:51.073+05:30"
+        cq:lastModified="{Date}2022-04-28T16:35:10.847+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/webdoodles/settings/wcm/templates/content-page"
         jcr:primaryType="cq:PageContent"
@@ -18,15 +18,14 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <text
-                    jcr:created="{Date}2022-04-14T22:00:11.012+05:30"
+                <filter
+                    jcr:created="{Date}2022-04-28T16:32:39.989+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-14T22:01:54.397+05:30"
+                    jcr:lastModified="{Date}2022-04-28T16:35:10.845+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="webdoodles/components/content/text"
-                    text="&lt;p>Data from initial content mode updated&lt;/p>&#xa;"
-                    textIsRich="true"/>
+                    sling:resourceType="webdoodles/components/atom/filter"
+                    tags="[webdoodles:electronics,webdoodles:electronics/phones,webdoodles:electronics/laptops]"/>
             </responsivegrid>
         </root>
     </jcr:content>
