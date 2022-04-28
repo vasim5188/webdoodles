@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:MicrosoftPhoto="http://ns.microsoft.com/photo/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="e67b4709-f778-478b-9e51-9609643f1cda">
+    <jcr:content
+        cq:name="2.jpg"
+        cq:parentPath="/content/dam/webdoodles"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-04-26T22:08:28.468+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2022-04-01T16:24:22.915+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="ab55966692c3a14e0a4f2352df35992d069cbe12"
+            dam:size="{Long}6499358"
+            dc:description="brownie chocolate ice- cream mint sugar powder side view"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2022-04-01T16:24:40.748+05:30"
+            dc:subject="[brownie,chocolate,ice-,cream,mint,sugar,powder,side,view,food,dessert,cake,brownie,chocolate,ice-,cream,mint,sugar,powder,side,view,food,dessert,cake,brownie,chocolate,ice-,cream,mint,sugar,powder,side,view,food,dessert,cake]"
+            dc:subject_xmpArrayType="rdf:Bag"
+            dc:title="brownie"
+            exif:UserComment="[SSUCv3H4sIAAAAAAAACpyRz27DIAzG75P2DhHnRiIJStq+SrWDY2iCSqECsmmq+u7jT6g474Z/tj/7M8/Pj6YhMziJ5Nw8YxRiqdTmvAUvjQ6YHnZuhebC1kRw6Y2VoGo4g8dVw10EqDelIn6lJHEe/OaEi8N2hODFEjQyfEvkjS45bkoiJUNHSBFyqJjb5sQKyuL/6syPr+IGFqHxNy1cGbFCCchGLrmU3H68sPfaGmxcmsrVt0FQsWColB5WotRL1Wb8mq5c2tBs2tu4wntzoox5wKziia9BUxS+gnOhnBdeDcLwp+ZezdHGJwO7KuHhJ2LYDT2jbKKnbhgnRumx3wvy760y6KR1ilCI8SZ5bV3GDUh/BBiRDu3QI2vZSLv2NCC289gxQMb4hNdw+NcfAAAA//8DAD97ADqHAgAA]"
+            exif:UserComment_xmpArrayType="rdf:Alt"
+            exifEX:LensModel="EF24-105mm f/4L IS USM"
+            jcr:lastModified="{Date}2022-04-26T22:08:26.224+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="brownie chocolate ice- cream mint sugar powder side view"
+            MicrosoftPhoto:LastKeywordXMP="[brownie,chocolate,ice-,cream,mint,sugar,powder,side,view,food,dessert,cake]"
+            MicrosoftPhoto:LastKeywordXMP_xmpArrayType="rdf:Bag"
+            photoshop:DateCreated="{Date}2019-01-10T15:17:02.230+05:30"
+            photoshop:Headline="brownie chocolate ice- cream mint sugar powder side view"
+            psAux:ApproximateFocusDistance="45/100"
+            psAux:Firmware="1.3.5"
+            psAux:FlashCompensation="0/1"
+            psAux:ImageNumber="{Long}0"
+            psAux:Lens="EF24-105mm f/4L IS USM"
+            psAux:LensID="{Long}237"
+            psAux:LensInfo="24/1 105/1 0/0 0/0"
+            psAux:LensSerialNumber="0000b2e698"
+            psAux:SerialNumber="083024016412"
+            tiff:ImageLength="{Long}3840"
+            tiff:ImageWidth="{Long}5760"
+            xmp:CreateDate="{Date}2019-01-10T15:17:02.230+05:30"
+            xmp:CreatorTool="Adobe Photoshop Lightroom Classic 7.1 (Windows)"
+            xmp:MetadataDate="{Date}2019-01-14T00:23:52.000+04:00"
+            xmp:ModifyDate="{Date}2019-01-14T00:23:52.000+04:00"
+            xmpMM:DocumentID="xmp.did:8e7f2665-1862-324a-8663-f8073a9e03d4"
+            xmpMM:InstanceID="xmp.iid:8e7f2665-1862-324a-8663-f8073a9e03d4"
+            xmpMM:OriginalDocumentID="C68964125629ABCE477BDE254C13186A">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}4"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:f3595fa1-e946-a546-8fe4-af9c59982195"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 7.1 (Windows)"
+                    stEvt:when="{Date}2019-01-14T00:23:52.000+04:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:8e7f2665-1862-324a-8663-f8073a9e03d4"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 7.1 (Windows)"
+                    stEvt:when="{Date}2019-01-14T00:23:52.000+04:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:f3595fa1-e946-a546-8fe4-af9c59982195"
+                stRef:instanceID="xmp.iid:f3595fa1-e946-a546-8fe4-af9c59982195"
+                stRef:originalDocumentID="C68964125629ABCE477BDE254C13186A"
+                xmpNodeType="xmpStruct"/>
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
