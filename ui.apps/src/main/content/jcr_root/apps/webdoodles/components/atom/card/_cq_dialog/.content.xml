@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Card"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <basic
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Basic"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs">
+                <items jcr:primaryType="nt:unstructured">
+                    <column
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="basic"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <file
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                autoStart="{Boolean}false"
+                                class="cq-droptarget"
+                                fieldLabel="Image asset"
+                                fileNameParameter="./fileName"
+                                fileReferenceParameter="./fileReference"
+                                mimeTypes="[image/gif,image/jpeg,image/png,image/webp,image/tiff,image/svg+xml]"
+                                multiple="{Boolean}false"
+                                name="./file"
+                                title="Upload Image Asset"
+                                uploadUrl="${suffix.path}"
+                                useHTML5="{Boolean}true"/>
+                            <cardtitle
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldLabel="Card title"
+                                name="./cardTitle"/>
+                            <cardtext
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldLabel="Card text"
+                                name="./cardText"/>
+                        </items>
+                    </column>
+                    <button-options
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/include"
+                        path="/apps/webdoodles/components/atom/button/cq:dialog/content/items/tabs/items/column"/>
+                </items>
+            </basic>
+        </items>
+    </content>
+</jcr:root>

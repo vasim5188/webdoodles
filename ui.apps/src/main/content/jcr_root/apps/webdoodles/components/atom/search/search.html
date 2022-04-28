@@ -1,0 +1,27 @@
+<form id="querybuilder-test-form">
+Type : <input type="text" name="type" class="type"/></br>
+Path : <input type="text" name="path" class="path"/></br>
+Property : <input type="text" name="property" class="property"/></br>
+Property Value : <input type="text" name="propertyvalue" class="property-value"/></br>
+<button id="querybuilder-submit" class="btn btn-start-order">Submit data</button>
+</form>
+
+<div class="result"></div>
+
+
+<script>
+    $('#querybuilder-submit').on('click', function(e) {
+        e.preventDefault();
+        $.ajax({
+            url : '/bin/webdoodles/search',
+            type: "GET",
+            data: $('#querybuilder-test-form').serialize(),
+            success: function(msg) {
+                $('.result').html(msg);
+            },
+            error: function() {
+                alert('failed');
+            }
+        });
+    });
+</script>

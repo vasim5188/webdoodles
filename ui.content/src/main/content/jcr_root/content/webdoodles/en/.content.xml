@@ -1,10 +1,240 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2022-04-28T14:00:22.425+05:30"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/webdoodles/settings/wcm/templates/content-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="English"
         sling:resourceType="webdoodles/components/structure/page"
-        pageTitle="New Project"/>
+        pageTitle="New Project">
+        <root jcr:primaryType="nt:unstructured">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <banner
+                    jcr:created="{Date}2022-04-06T22:00:31.806+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-07T18:19:39.726+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="webdoodles/components/atom/banner"
+                    containerposition="left"
+                    containersize="8"
+                    fileReference="/content/dam/webdoodles/banner.jpg">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/parsys">
+                        <title
+                            jcr:created="{Date}2022-04-06T23:05:00.363+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-06T23:05:25.588+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="What will you learn?"
+                            sling:resourceType="webdoodles/components/content/title"
+                            type="h1"/>
+                        <title_1654848493
+                            jcr:created="{Date}2022-04-06T23:05:43.869+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-06T23:05:57.999+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Complete website development and maintainence in AEM."
+                            sling:resourceType="webdoodles/components/content/title"
+                            type="h3"/>
+                        <button
+                            jcr:created="{Date}2022-04-07T19:25:19.760+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-13T22:36:22.675+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="webdoodles/components/atom/button"
+                            buttonType="btn-danger"/>
+                    </par>
+                </banner>
+                <story
+                    cq:styleIds="[1649349213233,1649754851504]"
+                    jcr:created="{Date}2022-04-07T21:22:50.684+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-07T21:26:06.985+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="webdoodles/components/atom/story"
+                    containerposition="center"
+                    containersize="8">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/parsys">
+                        <title
+                            jcr:created="{Date}2022-04-07T22:05:13.955+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-12T14:46:34.010+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Material Design for Bootstrap"
+                            sling:resourceType="webdoodles/components/content/title"
+                            type="h1"/>
+                        <title_1370744759
+                            jcr:created="{Date}2022-04-12T14:46:00.816+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-12T14:51:09.280+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Powerful and free Material Design UI KIT"
+                            sling:resourceType="webdoodles/components/content/title"
+                            type="h3"/>
+                        <text
+                            jcr:created="{Date}2022-04-12T14:46:39.844+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-12T14:51:03.561+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="webdoodles/components/content/text"
+                            text="&lt;h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aliquid dolorem ea distinctio exercitationem delectus qui, quas eum architecto, amet quasi accusantium, fugit consequatur ducimus obcaecati numquam molestias hic itaque accusantium doloremque laudantium, totam rem aperiam.&lt;/h4>&#xd;&#xa;"
+                            textIsRich="true"/>
+                    </par>
+                </story>
+                <column_control_1291701209
+                    cq:styleIds="[1650519620013]"
+                    jcr:created="{Date}2022-04-20T21:51:55.379+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-20T21:52:03.984+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="webdoodles/components/molecules/column-control"
+                    columnsnumber="2"
+                    incontainer="container-fluid">
+                    <col1
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/parsys">
+                        <imagecarousel
+                            jcr:created="{Date}2022-04-20T22:00:55.425+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-20T22:02:42.440+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="webdoodles/components/atom/imagecarousel">
+                            <images jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    fileReference="/content/dam/webdoodles/4.jpg"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    fileReference="/content/dam/webdoodles/5.jpg"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    fileReference="/content/dam/webdoodles/6.jpg"/>
+                            </images>
+                        </imagecarousel>
+                    </col1>
+                    <col2
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/parsys">
+                        <title
+                            jcr:created="{Date}2022-04-21T11:14:57.920+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-22T22:24:46.632+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Hello, world English"
+                            sling:resourceType="webdoodles/components/content/title"
+                            type="h1"/>
+                        <text
+                            jcr:created="{Date}2022-04-21T11:24:53.229+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-21T11:26:28.672+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="webdoodles/components/content/text"
+                            text="&lt;h4>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.&lt;/h4>&#xd;&#xa;&lt;p>It uses utility classes for typography and spacing to space content out within the larger container.&lt;/p>&#xd;&#xa;"
+                            textIsRich="true"/>
+                        <button
+                            jcr:created="{Date}2022-04-21T11:27:38.386+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-21T11:27:51.842+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="webdoodles/components/atom/button"
+                            buttonText="Read More"
+                            buttonType="btn-danger"/>
+                    </col2>
+                </column_control_1291701209>
+                <column_control
+                    cq:styleIds="[1650519620013]"
+                    jcr:created="{Date}2022-04-12T15:03:29.435+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-12T19:17:42.754+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="webdoodles/components/molecules/column-control"
+                    columnsnumber="3"
+                    incontainer="container-fluid">
+                    <col1
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/parsys">
+                        <card
+                            jcr:created="{Date}2022-04-12T21:41:48.950+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-14T15:59:40.615+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="webdoodles/components/atom/card"
+                            buttonLink="https://www.google.com"
+                            buttonText="View Demo"
+                            buttonType="btn-danger"
+                            cardText="Some quick example text to build on the card title and make up the bulk of the card's content."
+                            cardTitle="Card Title"
+                            fileReference="/content/dam/webdoodles/1.jpg"/>
+                    </col1>
+                    <col2
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/parsys">
+                        <card_copy
+                            jcr:created="{Date}2022-04-12T21:41:48.950+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-14T16:00:44.118+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="webdoodles/components/atom/card"
+                            buttonLink="https://www.google.com"
+                            buttonText="View Demo"
+                            buttonType="btn-danger"
+                            cardText="Some quick example text to build on the card title and make up the bulk of the card's content."
+                            cardTitle="Card Title"
+                            fileReference="/content/dam/webdoodles/2.jpg"/>
+                    </col2>
+                    <col3
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/parsys">
+                        <card_copy
+                            jcr:created="{Date}2022-04-12T21:41:48.950+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-14T16:00:50.886+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="webdoodles/components/atom/card"
+                            buttonLink="https://www.google.com"
+                            buttonText="View Demo"
+                            buttonType="btn-danger"
+                            cardText="Some quick example text to build on the card title and make up the bulk of the card's content."
+                            cardTitle="Card Title"
+                            fileReference="/content/dam/webdoodles/3.jpg"/>
+                    </col3>
+                </column_control>
+                <contactus
+                    jcr:created="{Date}2022-04-21T22:01:30.668+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-21T22:01:30.668+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="webdoodles/components/atom/contactus"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+    <about/>
+    <services/>
+    <team/>
+    <connect/>
 </jcr:root>

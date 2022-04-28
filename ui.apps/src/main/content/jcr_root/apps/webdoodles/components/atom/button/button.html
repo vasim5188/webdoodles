@@ -1,2 +1,4 @@
 <div data-sly-test="${wcmmode.edit}"  class="cq-placeholder" data-emptytext="${component.properties.jcr:title}"></div>
-<button type="button" class="btn ${properties.buttonType || 'btn-primary'} btn-lg mr-2" data-sly-test="${properties.buttonText}">View Demo</button>
+
+<sly data-sly-use.button="com.webdoodles.tutorials.core.models.ButtonModel"/>
+<button type="button" class="btn ${button.buttonType || 'btn-primary'} btn-lg mr-2" data-sly-test="${button.buttonText}">${button.buttonText}</button>

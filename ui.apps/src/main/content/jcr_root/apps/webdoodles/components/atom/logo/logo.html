@@ -1,6 +1,8 @@
-<sly data-sly-test.link="${properties.link}"/>
-    <a class="navbar-brand" href="${properties.link @ extension = 'html'}"><img src="${properties.fileReference || '/content/dam/webdoodles/logo.jpg'}" width="240"></a>
+<sly data-sly-use.logo="com.webdoodles.tutorials.core.models.Logo">
+
+<sly data-sly-test.link="${logo.link}"/>
+    <a class="navbar-brand" href="${logo.link @ extension = 'html'}"><img src="${logo.fileReference || '/content/dam/webdoodles/logo.jpg'}" width="240"></a>
 </sly>
 <sly data-sly-test="${!link}">
-	<a class="navbar-brand" href="#"><img src="${properties.fileReference || '/content/dam/webdoodles/logo.jpg'}" width="240"></a>
+	<a class="navbar-brand" href="#"><img src="${logo.fileReference || '/content/dam/webdoodles/logo.jpg'}" width="240"></a>
 </sly>
