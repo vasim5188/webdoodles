@@ -3,4 +3,5 @@
     <filter root="/conf/webdoodles" mode="merge"/>
     <filter root="/content/webdoodles" mode="merge"/>
     <filter root="/content/dam/webdoodles" mode="merge"/>
+	<filter root="/content/jcr_root/_cq_tags/webdoodles" mode="merge"/>
 </workspaceFilter>

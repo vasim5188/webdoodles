@@ -1,0 +1,19 @@
+<div data-sly-test="${wcmmode.edit}"  class="cq-placeholder" data-emptytext="${component.properties.jcr:title}"></div>
+
+<sly data-sly-use.filter="com.webdoodles.tutorials.core.models.Filter"/>
+
+<div class="container mt-5">
+    <div class="row col-3">
+        <select class="filter-dropdown story-container-center" style="padding: 10px; background:#edf2ff; border:none;">
+            <option value="">-- Select city -- </option>
+            <sly data-sly-list="${filter.tagDetailsMap}">
+                <option value="${filter.tagDetailsMap[item]}">${item}</option>
+            </sly>
+        </select>
+    </div>
+    <div>
+        <div class="container-fluid row filter-result"></div>
+
+
+        <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
+             data-sly-call="${clientlib.js @ categories='webdoodles.filter'}"/>
