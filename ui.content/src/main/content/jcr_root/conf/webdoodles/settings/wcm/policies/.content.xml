@@ -16,6 +16,87 @@
                     </form-container>
                 </container>
             </form>
+            <atom jcr:primaryType="nt:unstructured">
+                <story jcr:primaryType="nt:unstructured">
+                    <policy_1649349008695
+                        jcr:lastModified="{Date}2022-04-12T14:44:38.858+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Story component"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Background color"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="story-primary"
+                                        cq:styleId="1649349054574"
+                                        cq:styleLabel="primary"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="story-secondary"
+                                        cq:styleId="1649349213233"
+                                        cq:styleLabel="secondary"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                            <item1
+                                cq:styleGroupLabel="Text allignment"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="text-left"
+                                        cq:styleId="1649754839228"
+                                        cq:styleLabel="Text left"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="text-center"
+                                        cq:styleId="1649754851504"
+                                        cq:styleLabel="Text center"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="text-right"
+                                        cq:styleId="1649754863017"
+                                        cq:styleLabel="Text right"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item1>
+                        </cq:styleGroups>
+                    </policy_1649349008695>
+                </story>
+            </atom>
+            <molecules jcr:primaryType="nt:unstructured">
+                <column-control jcr:primaryType="nt:unstructured">
+                    <policy_1650519492184
+                        jcr:lastModified="{Date}2022-04-21T11:12:33.386+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Column control stylings"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Margin"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="mt-5"
+                                        cq:styleId="1650519620013"
+                                        cq:styleLabel="Margin Top 5"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="m-5"
+                                        cq:styleId="1650519727961"
+                                        cq:styleLabel="Margin 5"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1650519492184>
+                </column-control>
+            </molecules>
         </components>
     </webdoodles>
     <wcm jcr:primaryType="nt:unstructured">
@@ -41,12 +122,12 @@
                         jcr:primaryType="nt:unstructured"
                         mergeList="{Boolean}true"/>
                     <default
-                        jcr:lastModified="{Date}2022-04-01T16:34:07.436+05:30"
+                        jcr:lastModified="{Date}2022-04-07T21:55:34.438+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Webdoodles Components"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:Webdoodles.content]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Webdoodles.content]">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
                                 <image

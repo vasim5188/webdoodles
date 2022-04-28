@@ -3,4 +3,4 @@
     jcr:primaryType="cq:ClientLibraryFolder"
     allowProxy="{Boolean}true"
     categories="[webdoodles.base]"
-    embed="[webdoodles.dependencies,webdoodles.site]"/>
+    embed="[webdoodles.dependencies]"/>
